@@ -1,0 +1,134 @@
+﻿PokerStars Home Game Hand #212773957045: {Club #3524603} Tournament #2881162815, 17000+3000 Mixed PLH/PLO (Hold'em Pot Limit) - Level I (10/20) - 2020/04/26 20:15:00 CET [2020/04/26 14:15:00 ET]
+Table '2881162815 1' 6-max Seat #1 is the button
+Seat 1: bimmeli (5000 in chips) 
+Seat 2: seljar (5000 in chips) 
+Seat 4: yamyammoney (5000 in chips) 
+Seat 6: Wyzzy (5000 in chips) 
+seljar: posts small blind 10
+yamyammoney: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Wyzzy [Ad 4h]
+Wyzzy: folds 
+bimmeli: calls 20
+seljar: folds 
+yamyammoney: checks 
+*** FLOP *** [3d Th 9d]
+yamyammoney: checks 
+bimmeli: bets 50
+yamyammoney: folds 
+Uncalled bet (50) returned to bimmeli
+bimmeli collected 50 from pot
+bimmeli: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Board [3d Th 9d]
+Seat 1: bimmeli (button) collected (50)
+Seat 2: seljar (small blind) folded before Flop
+Seat 4: yamyammoney (big blind) folded on the Flop
+Seat 6: Wyzzy folded before Flop (didn't bet)
+
+
+
+PokerStars Home Game Hand #212774018972: {Club #3524603} Tournament #2881162815, 17000+3000 Mixed PLH/PLO (Hold'em Pot Limit) - Level I (10/20) - 2020/04/26 20:15:50 CET [2020/04/26 14:15:50 ET]
+Table '2881162815 1' 6-max Seat #2 is the button
+Seat 1: bimmeli (5030 in chips) 
+Seat 2: seljar (4990 in chips) 
+Seat 4: yamyammoney (4980 in chips) 
+Seat 6: Wyzzy (5000 in chips) 
+yamyammoney: posts small blind 10
+Wyzzy: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Wyzzy [Ks 5d]
+bimmeli: folds 
+seljar: raises 40 to 60
+yamyammoney: raises 120 to 180
+Wyzzy: folds 
+seljar: calls 120
+*** FLOP *** [Th 4s Ad]
+yamyammoney: checks 
+seljar: checks 
+*** TURN *** [Th 4s Ad] [8c]
+yamyammoney: checks 
+seljar: checks 
+*** RIVER *** [Th 4s Ad 8c] [Kh]
+yamyammoney: bets 210
+seljar: calls 210
+*** SHOW DOWN ***
+yamyammoney: shows [Ac Jc] (a pair of Aces)
+seljar: mucks hand 
+yamyammoney collected 800 from pot
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Board [Th 4s Ad 8c Kh]
+Seat 1: bimmeli folded before Flop (didn't bet)
+Seat 2: seljar (button) mucked [Kc Qc]
+Seat 4: yamyammoney (small blind) showed [Ac Jc] and won (800) with a pair of Aces
+Seat 6: Wyzzy (big blind) folded before Flop
+
+
+PokerStars Home Game Hand #212773957045: {Club #3524603} Tournament #2881162815, 17000+3000 Mixed PLH/PLO (Hold'em Pot Limit) - Level I (10/20) - 2020/04/26 20:15:00 CET [2020/04/26 14:15:00 ET]
+Table '2881162815 1' 6-max Seat #1 is the button
+Seat 1: bimmeli (5000 in chips) 
+Seat 2: seljar (5000 in chips) 
+Seat 4: yamyammoney (5000 in chips) 
+Seat 6: Wyzzy (5000 in chips) 
+seljar: posts small blind 10
+yamyammoney: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Wyzzy [Ad 4h]
+Wyzzy: folds 
+bimmeli: calls 20
+seljar: folds 
+yamyammoney: checks 
+*** FLOP *** [3d Th 9d]
+yamyammoney: checks 
+bimmeli: bets 50
+yamyammoney: folds 
+Uncalled bet (50) returned to bimmeli
+bimmeli collected 50 from pot
+bimmeli: doesn't show hand 
+*** SUMMARY ***
+Total pot 50 | Rake 0 
+Board [3d Th 9d]
+Seat 1: bimmeli (button) collected (50)
+Seat 2: seljar (small blind) folded before Flop
+Seat 4: yamyammoney (big blind) folded on the Flop
+Seat 6: Wyzzy folded before Flop (didn't bet)
+
+
+
+PokerStars Home Game Hand #212774018972: {Club #3524603} Tournament #2881162815, 17000+3000 Mixed PLH/PLO (Hold'em Pot Limit) - Level I (10/20) - 2020/04/26 20:15:50 CET [2020/04/26 14:15:50 ET]
+Table '2881162815 1' 6-max Seat #2 is the button
+Seat 1: bimmeli (5030 in chips) 
+Seat 2: seljar (4990 in chips) 
+Seat 4: yamyammoney (4980 in chips) 
+Seat 6: Wyzzy (5000 in chips) 
+yamyammoney: posts small blind 10
+Wyzzy: posts big blind 20
+*** HOLE CARDS ***
+Dealt to Wyzzy [Ks 5d]
+bimmeli: folds 
+seljar: raises 40 to 60
+yamyammoney: raises 120 to 180
+Wyzzy: folds 
+seljar: calls 120
+*** FLOP *** [Th 4s Ad]
+yamyammoney: checks 
+seljar: checks 
+*** TURN *** [Th 4s Ad] [8c]
+yamyammoney: checks 
+seljar: checks 
+*** RIVER *** [Th 4s Ad 8c] [Kh]
+yamyammoney: bets 210
+seljar: calls 210
+*** SHOW DOWN ***
+yamyammoney: shows [Ac Jc] (a pair of Aces)
+seljar: mucks hand 
+yamyammoney collected 800 from pot
+*** SUMMARY ***
+Total pot 800 | Rake 0 
+Board [Th 4s Ad 8c Kh]
+Seat 1: bimmeli folded before Flop (didn't bet)
+Seat 2: seljar (button) mucked [Kc Qc]
+Seat 4: yamyammoney (small blind) showed [Ac Jc] and won (800) with a pair of Aces
+Seat 6: Wyzzy (big blind) folded before Flop
