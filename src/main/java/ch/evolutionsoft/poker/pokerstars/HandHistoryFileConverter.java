@@ -10,34 +10,65 @@ public class HandHistoryFileConverter {
 
   public final static String CONVERTED_DIRECTORY_NAME = "HandHistoryConverted";
   
-  public static void main(String[] args) throws IOException, InterruptedException {
+  public static final long THIRTY_SECONDS = 30000L;
+  
+  public static void main(String[] arguments) throws IOException, InterruptedException {
+
+    String clubId = checkArguments(arguments);
+    
+    HomeGameHandHistoryConverter handHistoryConverter = 
+        new HomeGameHandHistoryConverter(clubId);
     
     while (true) {
       
-      File originalHandHistory = new File(args[0]);
-      String parentDirectoryName = originalHandHistory.getParent();
-      System.out.println("parentDirectory " + parentDirectoryName);
-      File parentDirectory = new File(parentDirectoryName);
+      File originalHandHistoryFolder = new File(arguments[0]);
+      System.out.println("Using HandHistory Folder " + originalHandHistoryFolder);
       
-      String copiedHandHistoryDirectoryName = parentDirectory.getParent() + File.separator + CONVERTED_DIRECTORY_NAME;
+      String copiedHandHistoryDirectoryName = originalHandHistoryFolder.getParent() + File.separator + CONVERTED_DIRECTORY_NAME;
       System.out.println("copiedDirectory " + copiedHandHistoryDirectoryName);
-      
-      String fileName = originalHandHistory.getName();
-      String copiedHandHistoryName = fileName.substring(fileName.indexOf("T"), fileName.indexOf("Hold") -  1);
-      String copiedHandHistoryFullName = copiedHandHistoryDirectoryName + File.separator + copiedHandHistoryName;
-      System.out.println("copiedHandHistoryFullName" + copiedHandHistoryFullName);
-      
-      File copiedHandHistory = new File(copiedHandHistoryFullName);
-      
-      FileUtils.copyFile(originalHandHistory, copiedHandHistory);
-      
-      String convertedHandHistory = 
-          HomeGameHandHistoryConverter.convertHomeGameHands(
-              FileUtils.readFileToString(copiedHandHistory, StandardCharsets.UTF_8));
-      FileUtils.write(copiedHandHistory, convertedHandHistory, StandardCharsets.UTF_8);
-      
-      Thread.sleep(20000L);
+     
+      for (String fileName : originalHandHistoryFolder.list()) {
+        
+        String copiedHandHistoryName = fileName.substring(0, fileName.indexOf("Hold") -  1) + " Omaha 50$ + 0$.txt";
+        String copiedHandHistoryFullName = copiedHandHistoryDirectoryName + File.separator + copiedHandHistoryName;
+        System.out.println("copiedHandHistoryFullName" + copiedHandHistoryFullName);
+        
+        File sourceFile = new File (originalHandHistoryFolder.getAbsolutePath() + File.separator + fileName);
+        File copiedHandHistory = new File(copiedHandHistoryFullName);
+        
+        FileUtils.copyFile(sourceFile, copiedHandHistory);
+        
+        String convertedHandHistory = handHistoryConverter.convertHomeGameHands(
+                FileUtils.readFileToString(copiedHandHistory, StandardCharsets.UTF_8));
+        FileUtils.write(copiedHandHistory, convertedHandHistory, StandardCharsets.UTF_8);
+      }
+        
+      Thread.sleep(THIRTY_SECONDS);
     }
+  }
+
+  protected static String checkArguments(String[] args) {
+    
+    if (null == args || 0 >= args.length) {
+      
+      throw new IllegalArgumentException("Please give absolute path of your PokerStars HandHistory folder"
+          + " as first Java program argument.");
+    }
+    
+    if (1 == args.length) {
+      
+      System.out.println("Using default club id " + HomeGameHandHistoryConverter.DEFAULT_CLUB_ID
+          + " Please use adapted clubId with second program argument if necessary.");
+      
+      if (!new File(args[0]).isDirectory() ) {
+        
+        throw new IllegalArgumentException("Please use a directory as first Java program argument.");
+      }
+      
+      return HomeGameHandHistoryConverter.DEFAULT_CLUB_ID;
+    }
+    
+    return args[1];
   }
 
 }
