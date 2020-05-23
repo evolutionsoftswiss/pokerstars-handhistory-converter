@@ -23,10 +23,10 @@ public class HomeGameHandHistoryConverter {
   public static final String HAND_NAME_PART_RELACEMENT = "PokerStars Hand";
 
   /**
-   * Replace Play Money Buy In by fix amount of 50$ + 0$ Rake.
+   * Replace Play Money Buy In by fix amount of 0.5$ + 0$ Rake.
    */
   public static final String BUY_IN_PART = "\\d+[+]\\d+";
-  public static final String BUY_IN_PART_REPLACEMENT = "\\$50+\\$0 USD";
+  public static final String BUY_IN_PART_REPLACEMENT = "\\$0.5+\\$0 USD";
   
   public static final String DEFAULT_CLUB_ID = "3524603"; 
   protected String clubId = DEFAULT_CLUB_ID;

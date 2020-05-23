@@ -19,7 +19,7 @@ public class HomeGameHandHistoryConverterTest {
     String inputFileString = FileUtils.readFileToString(inputFile, StandardCharsets.UTF_8);
     
     String expectedFirstLine = "PokerStars Hand #212773957045: Tournament #2881162815, "
-        + "$50+$0 USD Mixed PLH/PLO (Omaha Limit) - Level I (10/20) - "
+        + "$0.5+$0 USD Mixed PLH/PLO (Omaha Limit) - Level I (10/20) - "
         + "2020/04/26 20:15:00 CET [2020/04/26 14:15:00 ET]";
     String convertedHandHistory =
         new HomeGameHandHistoryConverter(HomeGameHandHistoryConverter.DEFAULT_CLUB_ID)

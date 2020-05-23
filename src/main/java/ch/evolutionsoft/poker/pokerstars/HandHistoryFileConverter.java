@@ -29,7 +29,7 @@ public class HandHistoryFileConverter {
      
       for (String fileName : originalHandHistoryFolder.list()) {
         
-        String copiedHandHistoryName = fileName.substring(0, fileName.indexOf("Hold") -  1) + " Omaha 50$ + 0$.txt";
+        String copiedHandHistoryName = fileName.substring(0, fileName.indexOf("Hold") -  1) + " Omaha 0.5$ + 0$.txt";
         String copiedHandHistoryFullName = copiedHandHistoryDirectoryName + File.separator + copiedHandHistoryName;
         System.out.println("copiedHandHistoryFullName" + copiedHandHistoryFullName);
         
